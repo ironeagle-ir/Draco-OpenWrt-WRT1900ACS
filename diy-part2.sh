@@ -86,7 +86,7 @@ git clone --depth 1 -b oaf-3.0.1 https://github.com/destan19/OpenAppFilter.git
 git clone --depth=1 https://github.com/NateLol/luci-app-oled
 
 # Add extra wireless drivers
-git clone --depth=1 https://github.com/immortalwrt/immortalwrt/tree/openwrt-21.02/package/kernel/rtl8812au-ac
+git clone --depth=1 https://github.com/immortalwrt/packages/kernel/rtl8812au-ac -b openwrt-21.02 packages/kernel/rtl8812au-ac
 #svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/rtl8821cu
 #svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/rtl8188eu
 #svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/rtl8192du
